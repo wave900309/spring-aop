@@ -1,0 +1,16 @@
+debug:
+  false
+
+server:
+  port: 7777
+
+logging:
+  pattern:
+    dateformat: "HH:mm:ss.sss"
+
+spring:
+  mvc:
+    favicon:
+      enabled: true
+  profiles:
+    active: dev
